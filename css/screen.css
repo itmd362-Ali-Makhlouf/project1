@@ -1,1 +1,148 @@
+/* Reset and Normalize */
+/* Include your reset and normalize styles here */
 
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+
+  header {
+    text-align: center;
+    background-color: #289E30; 
+    color: #FFFFFF;
+    padding: 2em 0;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+  
+  header p {
+    font-size: 1.5em;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2em 0;
+  }
+  
+  .form-group {
+    width: 100%;
+    max-width: 400px;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #E1E1E1; 
+    border-radius: 5px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #21707B; 
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .form-group select {
+    appearance: none;
+    background: url('arrow.png') no-repeat;
+    background-position: right center;
+    cursor: pointer;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+  
+ 
+  button[type="submit"] {
+    background-color: #8DBB30; 
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #289E30; 
+  }
+  
+
+  footer {
+    text-align: center;
+    background-color: #289E30; 
+    color: #FFFFFF;
+    padding: 2em 0;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+   
+    header h1 {
+      font-size: 3em;
+    }
+  
+    header p {
+      font-size: 1.8em;
+    }
+  
+    .form-group {
+      max-width: 600px;
+    }
+  
+    .form-group label {
+      font-size: 1.4em;
+    }
+  
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group select,
+    .form-group textarea {
+      font-size: 1.2em;
+    }
+  
+    button[type="submit"] {
+      font-size: 1.4em;
+    }
+  }
+  
