@@ -45,61 +45,64 @@ body {
     flex-direction: column;
     align-items: center;
 }
-  
-  .form-group {
+
+.form-group {
     width: 100%;
     max-width: 400px;
     margin: 1em;
     padding: 1em;
     border: 1px solid #E1E1E1; 
     border-radius: 5px;
-  }
-  
-  .form-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group label {
     font-family: 'Roboto', sans-serif; 
     font-size: 1.2em;
     color: #21707B; 
     display: block; 
     margin-bottom: 0.5em;
-    width: 200px; 
-  }
-  
-  .form-group input[type="text"],
-  .form-group input[type="email"],
-  .form-group select,
-  .form-group textarea {
-    width: 75%;
+    width: 100%; /* Adjust this width as needed */
+    text-align: center; /* Center the label text */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%; /* Adjust this width as needed */
     padding: 0.5em;
     margin-top: 0.5em;
     border: 1px solid #E1E1E1;
     border-radius: 5px;
     font-size: 1em;
-  }
+}
 
-  .form-group select {
+.form-group select {
     appearance: none;
     background: url('arrow.png') no-repeat;
     background-position: right center;
     cursor: pointer;
-  }
-  
-  .form-group textarea {
+}
+
+.form-group textarea {
     resize: vertical;
-  }
-  
-  .checkbox-group {
+}
+
+.checkbox-group {
     display: flex;
     align-items: center;
     font-size: 1.2em;
     margin-top: 1em;
-  }
-  
-  .checkbox-group input[type="checkbox"] {
+}
+
+.checkbox-group input[type="checkbox"] {
     margin-right: 0.5em;
-  }
-  
- 
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     background-color: #289E30; 
     color: #FFFFFF;
     font-size: 1.2em;
@@ -108,13 +111,13 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  button[type="submit"]:hover {
+}
+
+button[type="submit"]:hover {
     background-color: #21707B; 
-  }
-  
-  @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
   
     header h1 {
       font-size: 3em;
@@ -142,4 +145,4 @@ body {
     button[type="submit"] {
       font-size: 1.4em;
     }
-  } 
+  }
