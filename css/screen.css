@@ -61,7 +61,6 @@ header p {
     display: block;
     margin-bottom: 0.5em;
     width: 200px;
-    align-items: center;
 }
 
 .form-group input[type="text"],
@@ -74,7 +73,6 @@ header p {
     border: 1px solid #E1E1E1;
     border-radius: 5px;
     font-size: 1em;
-    align-items: center;
 }
 
 .form-group select {
