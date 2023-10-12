@@ -33,21 +33,17 @@ body {
     font-size: 1.5em;
   }
   
-  
-  form {
-    background-color: #8DBB30;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    margin: 2em 0;
-  }
 
   .form-container {
     background-color: #8DBB30;
+    max-width: 500px; 
+    margin: 2em auto; 
+    padding: 20px; 
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2em 0;
 }
   
   .form-group {
