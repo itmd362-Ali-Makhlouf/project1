@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-
 <head>
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Software Beta Test Sign-Up</title>
-        <!-- Link stylesheets here -->
-        <link rel="stylesheet" type="text/css" href="css/screen.css">
-        <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    </head>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Beta Test Sign-Up</title>
+    <link rel="stylesheet" type="text/css" href="css/screen.css">
+    <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
 <body>
     <header>
-        <h1>Join the Software Beta Test</h1>
-        <p>Be one of the first to try our latest software!</p>
+        <div id="header-content">
+            <h1>Join the Software Beta Test</h1>
+            <p>Be one of the first to try our latest software!</p>
+        </div>
     </header>
     <main>
         <form action="#null" method="get" id="betaSignUpForm">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+            <div id="firstNameDiv">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+            </div>
 
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+            <div id="lastNameDiv">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+            </div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            <div id="emailDiv">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            </div>
 
-            <label for="experience">Prior Software Testing Experience:</label>
-            <select id="experience" name="experience">
-                <option value="none">None</option>
-                <option value="limited">Limited</option>
-                <option value="experienced">Experienced</option>
-            </select>
+            <div id="experienceDiv">
+                <label for="experience">Prior Software Testing Experience:</label>
+                <select id="experience" name="experience">
+                    <option value="none">None</option>
+                    <option value="limited">Limited</option>
+                    <option value="experienced">Experienced</option>
+                </select>
+            </div>
 
-            <label for="comments">Additional Comments (optional):</label>
-            <textarea id="comments" name="comments" placeholder="Any comments or questions?"></textarea>
+            <div id="commentsDiv">
+                <label for="comments">Additional Comments (optional):</label>
+                <textarea id="comments" name="comments" placeholder="Any comments or questions?"></textarea>
+            </div>
 
-            <label for="agreeTerms">
-                <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
-                I agree to the <a href="terms.html" target="_blank">Terms and Conditions</a>
-            </label>
+            <div id="agreeTermsDiv">
+                <label for="agreeTerms">
+                    <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                    I agree to the <a href="terms.html" target="_blank">Terms and Conditions</a>
+                </label>
+            </div>
 
             <button type="submit">Sign Up</button>
         </form>
     </main>
     <footer>
-        <p>&copy; 2023 Software Beta Test. All rights reserved.</p>
+        <div id="footer-content">
+            <p>&copy; 2023 Software Beta Test. All rights reserved.</p>
+        </div>
     </footer>
 </body>
-
 </html>
