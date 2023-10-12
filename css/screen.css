@@ -35,12 +35,19 @@ body {
   
   
   form {
-    background-color: #8DBB30;
     display: flex;
     flex-direction: column;
     align-items: center; 
     margin: 2em 0;
   }
+
+  .form-container {
+    background-color: #8DBB30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+}
   
   .form-group {
     width: 100%;
@@ -64,14 +71,14 @@ body {
   .form-group input[type="email"],
   .form-group select,
   .form-group textarea {
-    width: 100%;
+    width: 75%;
     padding: 0.5em;
     margin-top: 0.5em;
     border: 1px solid #E1E1E1;
     border-radius: 5px;
     font-size: 1em;
   }
-  
+
   .form-group select {
     appearance: none;
     background: url('arrow.png') no-repeat;
@@ -138,6 +145,4 @@ body {
     button[type="submit"] {
       font-size: 1.4em;
     }
-  }
-  
-  
+  } 
