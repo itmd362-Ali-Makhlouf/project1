@@ -1,2 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
+
+<head>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Software Beta Test Sign-Up</title>
+        <!-- Link stylesheets here -->
+        <link rel="stylesheet" type="text/css" href="css/screen.css">
+        <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    </head>
+
+<body>
+    <header>
+        <h1>Join the Software Beta Test</h1>
+        <p>Be one of the first to try our latest software!</p>
+    </header>
+    <main>
+        <form action="#null" method="get" id="betaSignUpForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+            <label for="experience">Prior Software Testing Experience:</label>
+            <select id="experience" name="experience">
+                <option value="none">None</option>
+                <option value="limited">Limited</option>
+                <option value="experienced">Experienced</option>
+            </select>
+
+            <label for="comments">Additional Comments (optional):</label>
+            <textarea id="comments" name="comments" placeholder="Any comments or questions?"></textarea>
+
+            <label for="agreeTerms">
+                <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                I agree to the <a href="terms.html" target="_blank">Terms and Conditions</a>
+            </label>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Software Beta Test. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
