@@ -1,12 +1,11 @@
-/* Reset and Normalize */
-/* Include your reset and normalize styles here */
-
-/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF; 
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
   
   .container {
@@ -16,7 +15,7 @@ body {
     box-sizing: border-box;
   }
   
-
+  
   header {
     text-align: center;
     background-color: #289E30; 
@@ -33,12 +32,11 @@ body {
     font-size: 1.5em;
   }
   
-  /* Form Styles */
+  
   form {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column; 
+    align-items: center; 
     margin: 2em 0;
   }
   
@@ -55,6 +53,8 @@ body {
     font-weight: bold;
     font-size: 1.2em;
     color: #21707B; 
+    display: block; 
+    margin-bottom: 0.5em; 
   }
   
   .form-group input[type="text"],
@@ -91,7 +91,7 @@ body {
     margin-right: 0.5em;
   }
   
- 
+  
   button[type="submit"] {
     background-color: #8DBB30; 
     color: #FFFFFF;
@@ -107,17 +107,18 @@ body {
     background-color: #289E30; 
   }
   
-
+  
   footer {
     text-align: center;
     background-color: #289E30; 
     color: #FFFFFF;
     padding: 2em 0;
+    align-self: flex-end;
   }
   
   
   @media screen and (min-width: 768px) {
-   
+    
     header h1 {
       font-size: 3em;
     }
@@ -145,4 +146,5 @@ body {
       font-size: 1.4em;
     }
   }
+  
   
