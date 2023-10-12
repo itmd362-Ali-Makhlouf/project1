@@ -43,6 +43,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #989898;
 }
 
 .form-container label,
