@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #21707B;
+    background-color: #000000;
     margin: 0;
     padding: 0;
     display: flex;
@@ -18,7 +18,7 @@ body {
 
 header {
     text-align: center;
-    background-color: #289E30;
+    background-color: #1E90FF;
     color: #FFFFFF;
     padding: 2em 0;
 }
@@ -34,7 +34,7 @@ header p {
 
 
 .form-container {
-    background-color: #8DBB30;
+    background-color: #1E90FF;
     max-width: 500px;
     margin: 2em auto;
     padding: 20px;
@@ -57,7 +57,7 @@ header p {
 .form-group label {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    color: #21707B;
+    color: #000000;
     display: block;
     margin-bottom: 0.5em;
     width: 200px;
