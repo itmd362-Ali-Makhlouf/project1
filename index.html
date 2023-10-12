@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
+
 <body>
     <header>
         <div id="header-content">
@@ -17,17 +19,17 @@
     </header>
     <main>
         <form action="#null" method="get" id="betaSignUpForm">
-            <div id="firstNameDiv">
+            <div class="form-group">
                 <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
             </div>
 
-            <div id="lastNameDiv">
+            <div class="form-group">
                 <label for="lastName">Last Name:</label>
                 <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
             </div>
 
-            <div id="emailDiv">
+            <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required placeholder="Enter your email address">
             </div>
@@ -56,4 +58,5 @@
             <button type="submit">Sign Up</button>
         </form>
     </main>
+
 </html>
