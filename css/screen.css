@@ -54,14 +54,12 @@ header p {
     width: 100%;
     padding: 0.5em;
     margin-top: 0.5em;
-    font-size: 1em;
+    font-size: 1.25em;
     text-align: center;
 }
 
 .form-container select {
     appearance: none;
-    background: url('arrow.png') no-repeat;
-    background-position: right center;
     cursor: pointer;
 }
 
